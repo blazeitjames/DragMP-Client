@@ -1,0 +1,19 @@
+{
+  "domElement": "<dragmp-leaderboard></dragmp-leaderboard>",
+  "name": "DragMP Leaderboard",
+  "types": [
+    "ui.apps.categories.info"
+  ],
+  "description": "DragMP Leaderboard",
+  "css": {
+    "min-width": "200px",
+    "height": "400px",
+    "width": "400px",
+    "right": "200px",
+    "min-height": "50px",
+    "top": "200px"
+  },
+  "author": "zuzuzaza",
+  "version": "0.0",
+  "directive": "dragmpLeaderboard"
+}

@@ -1,0 +1,2 @@
+queueExtensionToLoad("dragMultiplayerUI")
+queueExtensionToLoad("dragMultiplayer")

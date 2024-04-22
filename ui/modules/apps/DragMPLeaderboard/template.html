@@ -1,0 +1,34 @@
+<div style="max-height:100%; max-width: 100%; overflow:auto;">
+  <div layout="row" layout-align="center" ng-click="toggleShow()"
+    ng-switch="show" style="padding: 2%;" class="bngApp">
+    <div ng-switch-when="true"
+      style="width: 10px; height: 25px; overflow: hidden">
+      <span>
+        <md-icon class="material-icons"
+          style="margin-left: 5px; position: absolute; right: 0px; color: white">keyboard_arrow_left</md-icon>
+      </span>
+    </div>
+
+    <div ng-switch-default>
+      <md-icon class="material-icons"
+        style="color:#FFF">keyboard_arrow_right</md-icon>
+    </div>
+  </div>
+
+  <div class="bngApp">
+    <table>
+      <thead>
+        <th>#</th>
+        <th>Name</th>
+        <th>Time</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>zuzuzaza</td>
+          <td>9.784@200kmh</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
