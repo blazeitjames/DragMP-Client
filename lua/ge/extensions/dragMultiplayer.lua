@@ -126,22 +126,22 @@ local function initLights()
     log("D", logTag, "Initializing lights")
     lights = {
         stageLights = {
-            prestageLightL = { obj = scenetree.findObject("Prestagelight_l"), anim = "prestage" },
-            prestageLightR = { obj = scenetree.findObject("Prestagelight_r"), anim = "prestage" },
-            stageLightL    = { obj = scenetree.findObject("Stagelight_l"), anim = "prestage" },
-            stageLightR    = { obj = scenetree.findObject("Stagelight_r"), anim = "prestage" }
+            prestageLightL = { obj = scenetree.findObject("Prestagelight_2"), anim = "prestage" },
+            prestageLightR = { obj = scenetree.findObject("Prestagelight_1"), anim = "prestage" },
+            stageLightL    = { obj = scenetree.findObject("Stagelight_2"), anim = "prestage" },
+            stageLightR    = { obj = scenetree.findObject("Stagelight_1"), anim = "prestage" }
         },
         countDownLights = {
-            amberLight1R = { obj = scenetree.findObject("Amberlight1_R"), anim = "tree" },
-            amberLight2R = { obj = scenetree.findObject("Amberlight2_R"), anim = "tree" },
-            amberLight3R = { obj = scenetree.findObject("Amberlight3_R"), anim = "tree" },
-            amberLight1L = { obj = scenetree.findObject("Amberlight1_L"), anim = "tree" },
-            amberLight2L = { obj = scenetree.findObject("Amberlight2_L"), anim = "tree" },
-            amberLight3L = { obj = scenetree.findObject("Amberlight3_L"), anim = "tree" },
-            greenLightR  = { obj = scenetree.findObject("Greenlight_R"), anim = "tree" },
-            greenLightL  = { obj = scenetree.findObject("Greenlight_L"), anim = "tree" },
-            redLightR    = { obj = scenetree.findObject("Redlight_R"), anim = "tree" },
-            redLightL    = { obj = scenetree.findObject("Redlight_L"), anim = "tree" }
+            amberLight1R = { obj = scenetree.findObject("Amberlight1_1"), anim = "tree" },
+            amberLight2R = { obj = scenetree.findObject("Amberlight2_1"), anim = "tree" },
+            amberLight3R = { obj = scenetree.findObject("Amberlight3_1"), anim = "tree" },
+            amberLight1L = { obj = scenetree.findObject("Amberlight1_2"), anim = "tree" },
+            amberLight2L = { obj = scenetree.findObject("Amberlight2_2"), anim = "tree" },
+            amberLight3L = { obj = scenetree.findObject("Amberlight3_2"), anim = "tree" },
+            greenLightR  = { obj = scenetree.findObject("Greenlight_1"), anim = "tree" },
+            greenLightL  = { obj = scenetree.findObject("Greenlight_2"), anim = "tree" },
+            redLightR    = { obj = scenetree.findObject("Redlight_1"), anim = "tree" },
+            redLightL    = { obj = scenetree.findObject("Redlight_2"), anim = "tree" }
         }
     }
 end
